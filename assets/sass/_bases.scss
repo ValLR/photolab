@@ -118,9 +118,9 @@ body{
 		-moz-background-size: cover; 
 		-o-background-size: cover; 
 		background-size: cover;
-		height:620px;
+		height:600px;
 		.subscribe-title{
-			margin-top:220px;
+			margin-top:250px;
 			font-weight:bolder;
 			color:$white;
 			margin-bottom:50px;
@@ -137,5 +137,24 @@ body{
 		}
 
 	}
+	.download{
+		background-color:$grey;
+		padding:100px 50px;
+		.download-title{
+			color:$text;
+			font-weight:bold;
+		}
+		.download-body{
+			color:$text;
+			font-size:15px;
+			margin: 10px 20px;
+		}
+		button{
+			@include boton();
+			width:220px;
+			margin-top:30px;
+		}
+	}
+	
 }
 //gdyr37
