@@ -41,10 +41,7 @@ body{
 		}
 	}
 	.gStart{
-		background-color:$green;
-		border-color:$green;
-		padding:12px;
-		color:$white;
+		@include boton();
 		border-radius:10%;
 		font-weight:bold;
 	}
@@ -65,7 +62,44 @@ body{
 		}
 		button{
 			margin-left:10px;
+			border-radius:10%;
+			font-weight:bold;
 		}
+	}
+	.design{
+		background-color:$white;
+
+		.des-box{
+			padding-top:100px;
+		}
+		
+		.body-title{
+			color:$green;
+			font-weight:bolder;
+			margin-top:100px;
+			margin-left:5px;
+		}
+		.body{
+			color:$text;
+			font-size:15px;
+			margin-bottom:25px;
+			margin-left:5px;
+
+		}
+		#learn{
+			@include boton();
+			margin-left:10px;
+			width:180px;
+			height:auto;
+		}
+		img{
+			width:400px;
+			height:auto;
+		}
+	}
+	.community{
+		background-color:$grey;
+		margin:0 10px;
 	}
 }
 //gdyr37

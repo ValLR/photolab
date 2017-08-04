@@ -5,3 +5,9 @@
     x-overflow:hidden;
     font-family: 'Nunito', sans-serif;
 }
+@mixin boton(){
+	background-color:$green;
+	border-color:$green;
+	padding:12px;
+	color:$white;
+}
