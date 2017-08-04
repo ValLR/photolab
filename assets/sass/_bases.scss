@@ -1,0 +1,62 @@
+body{
+	.home{
+		background:url("../../dist/img/bg1.jpg") no-repeat center center;
+		-webkit-background-size: cover; 
+		-moz-background-size: cover; 
+		-o-background-size: cover; 
+		background-size: cover;
+		height:700px;
+		@include reinicia();
+		.navbar-default{
+			background-color:transparent;
+			border-color:transparent;
+			.navbar-nav{
+				text-align:center;
+				width:100%;
+
+				li{
+					display:inline-block;
+					float:none;
+					margin: 5px 15px;
+				}
+				a{
+					color:$white!important;
+					font-weight:bolder;
+					margin-top: 40px;
+					font-size:16px;
+				}
+			}
+		}
+		.home-title{
+			color:$white;
+			font-weight:bolder;
+			margin-top:190px;
+			font-size:45px;
+
+		}
+		.home-body{
+			color:$white;
+			font-weight:bold;
+			margin-bottom:20px;
+		}
+	}
+	.gStart{
+		background-color:$green;
+		border-color:$green;
+		padding:12px;
+		color:$white;
+		border-radius:10%;
+		font-weight:bold;
+	}
+	.start{
+		padding:50px 0;
+		background:url("../../dist/img/hand.png") no-repeat 50% 0;
+
+		.body-title{
+			color:$green;
+		}
+		.body{
+			color:$text;
+		}
+	}
+}
